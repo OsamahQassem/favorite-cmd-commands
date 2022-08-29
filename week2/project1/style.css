@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+} body{
+    font-family: lato,sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    letter-spacing: 2px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    letter-spacing: 1px;
+    
+}
+
+
+
+/* NAV BAR start */
+
+.navbar{
+    background-color: #047aed;
+    color: #ffff;
+}
+
+.container-navbar{
+    max-width: 1100px;
+    margin:  auto;
+    padding: 30px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu li{
+    padding-left: 15px;
+    color: #ffff;
+    list-style: none;
+    
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+    
+}
+ .menu a:hover{
+    border-bottom: 2px solid ;
+ }
+
+
+ /* NAV BAR end */
+
+
+
+ /* HERO start */
+
+
+.hero{
+    background-color: #047aed;
+    height: 400px;
+    position: relative;
+    
+    
+}
+
+.containre-hero{
+    max-width: 1100px;
+    display: flex;
+    margin: auto;
+    padding: 100px 30px;
+    
+    
+
+}
+
+.intro{
+    flex-basis: 50%;
+    color: #ffff;
+    padding-top: 30px;
+    
+}
+
+.intro h1,p,button{
+    padding: 20px 0;
+
+}
+
+.intro button{
+    
+    width:content;
+    border:1px solid;
+    padding: 15px;
+    color:#ffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro button:hover{
+    scale: 0.95;
+    transition: 0.1s;
+
+
+
+}
+
+
+.form{
+    flex-basis: 400px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    height: 400px;
+    margin: auto ;
+    z-index: 999;
+    
+    
+
+}
+
+.form h2,input,button{
+    margin: auto 10px;
+    border: none;
+    background: none;
+}
+
+.form input{
+  border-bottom: 1px solid #c9d4df;
+  padding: 5px;
+  width: 100%;
+}
+
+.form input:focus{
+
+    outline: none;
+    
+}
+ .form button{
+    align-self: flex-start;
+    width: fit-content;
+    background-color: #047aed;
+    padding: 10px 15px;
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+ }
+
+
+
+.form button:hover{
+    scale: 0.95;
+    transition: 0.1s;
+}
+
+.hero::after{
+
+    content: "";
+    height: 70px;
+    width: 100%;
+    background-color:#ffff;
+    position: absolute;
+    top: 380px;
+    transform: skewY(-3deg);
+    
+}
+
+/* HERO end */
+
+
+
+
+/* SERVICSES start */
+
+.cards{
+    max-width: 1100px;
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
+
+
+
+.cards :first-child{
+    grid-column: 1/4;
+    justify-self: center;
+    max-width: 600px;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.cards :nth-child(5){
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+
+.cards :nth-child(6){
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+
+    
+    
+
+}
+.cards :nth-child(7){
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+
+    
+    
+
+}
+
+.card{
+    text-align: center;
+}
+
+
+/* SERVICES end */
+
+
+/* CLOUD start */
+
+.cloud{
+
+    background-color: #047aed;
+    margin: auto;
+
+}
+
+.cloud-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+    
+}
+
+.cloud-container div{
+    color:#fff;
+    text-align: center;
+    align-self: center;
+    
+
+}
+
+.cloud-container img{
+    max-width: 400px;
+    
+}
+
+.cloud-container button{
+
+    width:content;
+    border:1px solid;
+    padding: 15px;
+    color:#ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #002240;
+    border: none;
+
+}
+
