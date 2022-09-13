@@ -1,7 +1,7 @@
 # favorite-cmd-commands
 
 ## Git init
-Create a repository in a folder on a devce.
+Create a repository in a folder on a device.
 
 ## Git clone
 Download a repository to a device.
